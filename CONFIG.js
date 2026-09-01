@@ -1,9 +1,9 @@
 const CONFIG = {
-  businessName: "Alamo Solutions",
+  businessName: "Alamo Roofing",
   niche: "Roofing",
   tagline: "Trusted Roofing Services in San Antonio",
-  phone: "",
-  phoneRaw: "",
+  phone: "(210) 602-7677",
+  phoneRaw: "2106027677",
   email: "",
   city: "San Antonio",
   state: "Texas",
@@ -20,14 +20,14 @@ const CONFIG = {
   satisfactionRate: "98%",
   webhookUrl: "",
   metaPixelId: "",
-  maps: { mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109867.75389650742!2d-98.61439266399435!3d29.42396349942091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58af04c0c1b5%3A0x8562c353b9c37279!2sSan%20Antonio%2C%20TX!5e0!3m2!1sen!2sus!4v1701550993188!5m2!1sen!2sus", mapSearchQuery: "Alamo Solutions Roofing San Antonio TX", mapHeight: 420 },
+  maps: { mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109867.75389650742!2d-98.61439266399435!3d29.42396349942091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58af04c0c1b5%3A0x8562c353b9c37279!2sSan%20Antonio%2C%20TX!5e0!3m2!1sen!2sus!4v1701550993188!5m2!1sen!2sus", mapSearchQuery: "Alamo Roofing San Antonio TX", mapHeight: 420 },
   hero: {
     eyebrow: "Local Home Service Professionals",
     headline: "Protect Your San Antonio Home with Expert Roofing",
     subheadline: "Reliable, durable, and beautiful roofing solutions tailored for the Texas climate.",
     ctaPrimary: "Get a Free Estimate",
     ctaSecondary: "Explore Services",
-    heroImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80&auto=format&fit=crop",
+    heroImage: "https://images.pexels.com/photos/38028508/pexels-photo-38028508.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   services: [
     {
@@ -40,7 +40,7 @@ const CONFIG = {
         { q: "How do I know if my roof needs repair?", a: "Signs include missing shingles, water stains on ceilings, granules in gutters, or visible damage after a storm. We offer free inspections to assess your roof's condition." },
         { q: "How long does a typical roof repair take?", a: "Most repairs can be completed within a day, depending on the extent of the damage. We work efficiently to minimize disruption to your home." },
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.pexels.com/photos/33404248/pexels-photo-33404248.jpeg?auto=compress&cs=tinysrgb&w=1200",
     },
     {
       slug: "roof-replacement",
@@ -52,7 +52,7 @@ const CONFIG = {
         { q: "How long does a roof replacement take?", a: "Most residential roof replacements are completed within 2-5 days, depending on the roof's size, complexity, and weather conditions." },
         { q: "What types of roofing materials do you offer?", a: "We offer a variety of materials including asphalt shingles, metal roofing, tile roofing, and flat roofing solutions, tailored to your aesthetic and budget." },
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.pexels.com/photos/31771166/pexels-photo-31771166.jpeg?auto=compress&cs=tinysrgb&w=1200",
     },
     {
       slug: "new-roof-installation",
@@ -64,7 +64,7 @@ const CONFIG = {
         { q: "Can I choose my roofing material for a new build?", a: "Absolutely! We'll help you explore options like asphalt, metal, or tile to find the perfect fit for your home's style and your budget." },
         { q: "What is the typical warranty for a new roof installation?", a: "We offer comprehensive warranties on both materials and labor, ensuring your peace of mind for years to come. Specific terms depend on the chosen materials." },
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.pexels.com/photos/37704240/pexels-photo-37704240.jpeg?auto=compress&cs=tinysrgb&w=1200",
     },
     {
       slug: "roof-inspections",
@@ -76,7 +76,7 @@ const CONFIG = {
         { q: "How often should I have my roof inspected?", a: "We recommend annual inspections, especially after severe weather, or if your roof is over 10 years old, to catch issues early." },
         { q: "What does a roof inspection involve?", a: "Our inspectors examine shingles, flashing, gutters, vents, and the overall structure for damage, wear, and potential leaks, both externally and from the attic if accessible." },
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.pexels.com/photos/37623622/pexels-photo-37623622.jpeg?auto=compress&cs=tinysrgb&w=1200",
     },
     {
       slug: "emergency-roofing",
@@ -88,7 +88,7 @@ const CONFIG = {
         { q: "What constitutes a roofing emergency?", a: "Severe leaks, major storm damage, fallen trees, or any situation where your home is immediately vulnerable to water intrusion or structural compromise." },
         { q: "How quickly can you respond to an emergency?", a: "We aim to respond to emergency calls as quickly as possible, often within hours, to provide immediate temporary solutions and assess the damage." },
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.pexels.com/photos/544966/pexels-photo-544966.jpeg?auto=compress&cs=tinysrgb&w=1200",
     },
     {
       slug: "commercial-roofing",
@@ -100,7 +100,7 @@ const CONFIG = {
         { q: "What types of commercial roofing systems do you work with?", a: "We handle various systems including TPO, EPDM, PVC, modified bitumen, and metal roofing for commercial properties." },
         { q: "Do you offer maintenance plans for commercial roofs?", a: "Yes, we provide customized maintenance plans to prolong the life of your commercial roof and prevent costly issues." },
       ],
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop",
+      image: "https://images.pexels.com/photos/38781395/pexels-photo-38781395.jpeg?auto=compress&cs=tinysrgb&w=1200",
     },
   ],
   serviceAreas: [
@@ -126,10 +126,10 @@ const CONFIG = {
     { slug: "new-braunfels", name: "New Braunfels", county: "" }
   ],
   testimonials: [
-    { name: "Maria", text: "Alamo Solutions did an amazing job replacing our roof in San Antonio. The team was professional, efficient, and the new roof looks fantastic. Highly recommend their services!", rating: 5 },
-    { name: "David", text: "We had a leak after a storm, and Alamo Solutions responded quickly. Their repair work was thorough and precise. Our roof is secure again, thanks to their prompt service in San Antonio.", rating: 5 },
-    { name: "Sarah", text: "I needed a full roof replacement, and Alamo Solutions walked me through every step. They helped me choose the best materials for my home in San Antonio and completed the project on time and within budget. Excellent work!", rating: 5 },
-    { name: "James", text: "Professional and honest! Alamo Solutions inspected my roof in San Antonio and gave me a clear report. They fixed the issues without trying to upsell me. A truly trustworthy roofing company.", rating: 5 },
+    { name: "Maria", text: "Alamo Roofing did an amazing job replacing our roof in San Antonio. The team was professional, efficient, and the new roof looks fantastic. Highly recommend their services!", rating: 5 },
+    { name: "David", text: "We had a leak after a storm, and Alamo Roofing responded quickly. Their repair work was thorough and precise. Our roof is secure again, thanks to their prompt service in San Antonio.", rating: 5 },
+    { name: "Sarah", text: "I needed a full roof replacement, and Alamo Roofing walked me through every step. They helped me choose the best materials for my home in San Antonio and completed the project on time and within budget. Excellent work!", rating: 5 },
+    { name: "James", text: "Professional and honest! Alamo Roofing inspected my roof in San Antonio and gave me a clear report. They fixed the issues without trying to upsell me. A truly trustworthy roofing company.", rating: 5 },
   ],
   processSteps: [
     { title: "Tell Us About Your Project", desc: "Share your goals and schedule a convenient consultation." },

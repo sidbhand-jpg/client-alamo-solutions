@@ -1,7 +1,7 @@
 // ✅  LLM-populated CONFIG — cross-reference against live CONFIG.js
 
 const CONFIG = {
-  businessName: "Alamo Solutions",
+  businessName: "Alamo Roofing",
   niche: "Roofing",
   tagline: "Trusted Roofing Services in San Antonio",
   phone: "",
@@ -22,7 +22,7 @@ const CONFIG = {
   satisfactionRate: "98%",
   webhookUrl: "",
   metaPixelId: "",
-  maps: { mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109867.75389650742!2d-98.61439266399435!3d29.42396349942091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58af04c0c1b5%3A0x8562c353b9c37279!2sSan%20Antonio%2C%20TX!5e0!3m2!1sen!2sus!4v1701550993188!5m2!1sen!2sus", mapSearchQuery: "Alamo Solutions Roofing San Antonio TX", mapHeight: 420 },
+  maps: { mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109867.75389650742!2d-98.61439266399435!3d29.42396349942091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58af04c0c1b5%3A0x8562c353b9c37279!2sSan%20Antonio%2C%20TX!5e0!3m2!1sen!2sus!4v1701550993188!5m2!1sen!2sus", mapSearchQuery: "Alamo Roofing San Antonio TX", mapHeight: 420 },
   hero: {
     eyebrow: "Local Home Service Professionals",
     headline: "Protect Your San Antonio Home with Expert Roofing",
@@ -128,10 +128,10 @@ const CONFIG = {
     { slug: "new-braunfels", name: "New Braunfels", county: "" }
   ],
   testimonials: [
-    { name: "Maria", text: "Alamo Solutions did an amazing job replacing our roof in San Antonio. The team was professional, efficient, and the new roof looks fantastic. Highly recommend their services!", rating: 5 },
-    { name: "David", text: "We had a leak after a storm, and Alamo Solutions responded quickly. Their repair work was thorough and precise. Our roof is secure again, thanks to their prompt service in San Antonio.", rating: 5 },
-    { name: "Sarah", text: "I needed a full roof replacement, and Alamo Solutions walked me through every step. They helped me choose the best materials for my home in San Antonio and completed the project on time and within budget. Excellent work!", rating: 5 },
-    { name: "James", text: "Professional and honest! Alamo Solutions inspected my roof in San Antonio and gave me a clear report. They fixed the issues without trying to upsell me. A truly trustworthy roofing company.", rating: 5 },
+    { name: "Maria", text: "Alamo Roofing did an amazing job replacing our roof in San Antonio. The team was professional, efficient, and the new roof looks fantastic. Highly recommend their services!", rating: 5 },
+    { name: "David", text: "We had a leak after a storm, and Alamo Roofing responded quickly. Their repair work was thorough and precise. Our roof is secure again, thanks to their prompt service in San Antonio.", rating: 5 },
+    { name: "Sarah", text: "I needed a full roof replacement, and Alamo Roofing walked me through every step. They helped me choose the best materials for my home in San Antonio and completed the project on time and within budget. Excellent work!", rating: 5 },
+    { name: "James", text: "Professional and honest! Alamo Roofing inspected my roof in San Antonio and gave me a clear report. They fixed the issues without trying to upsell me. A truly trustworthy roofing company.", rating: 5 },
   ],
   processSteps: [
     { title: "Tell Us About Your Project", desc: "Share your goals and schedule a convenient consultation." },

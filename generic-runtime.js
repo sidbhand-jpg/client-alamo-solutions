@@ -65,14 +65,5 @@
       document.getElementById('city-cta').innerHTML = ctaSectionHTML({ title: `Ready to get started in ${area.name}?`, subtitle: `Request a clear, no-pressure estimate from ${CONFIG.businessName}.` });
     }
 
-    if (document.getElementById('about-headline')) {
-      document.title = `About ${CONFIG.businessName} | ${niche}`;
-      document.querySelector('meta[name="description"]').setAttribute('content', `Learn about ${CONFIG.businessName}, a local ${niche.toLowerCase()} team serving ${CONFIG.city}.`);
-      document.getElementById('about-headline').textContent = `A local team that puts your project first.`;
-      const prose = document.querySelector('.about-prose');
-      if (prose) prose.innerHTML = `<p>${CONFIG.businessName} serves ${CONFIG.city} with professional ${niche.toLowerCase()} and a straightforward customer experience.</p><p>We believe good service means clear communication, practical recommendations, respect for your property, and work completed with care.</p><p>From the first call through the final walkthrough, our team is here to make your project simpler.</p>`;
-      const values = document.querySelector('.values-grid');
-      if (values) values.innerHTML = [['Clear communication', 'We explain the plan and keep you informed.'], ['Respect for your property', 'We work carefully and leave your space tidy.'], ['Professional standards', 'We bring the experience and attention your project deserves.']].map(([title, desc]) => `<div class="value-card"><div class="value-title">${title}</div><p class="value-desc">${desc}</p></div>`).join('');
-    }
   }, 0));
 })();
